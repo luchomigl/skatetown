@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.fondoCustom{
+    background-color: saddlebrown;
+    background-image: url("../imgs/fondo.jpg");
+}
+
+.menu{
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    font-weight: bold;    
+}
+
+.menu li a{
+    color: rgb(205, 207, 93);
+    display: inline-flexbox;
+    text-decoration: none;
+    padding: 3px;
+    margin: 15px;
+    margin-bottom: 50px;   
+}
+
+.menu li:hover{
+    background-color: rgba(153, 109, 42, 0.315);
+ 
+}
+
+h1{
+    color: goldenrod;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+h2{
+    color: papayawhip;     
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+nav{
+    color: slategray;
+    margin: 17px 0px 0px 262px;
+}
+
+p{
+    color: papayawhip;
+}
+
+h5{
+    color: papayawhip;
+}
+
+.footerEstilo{
+    font-style: italic;
+    font-size: 75%;
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.logo1{
+    display: inline-block;
+    margin: 5px 50px 10px 20px;
+    border: 0px;
+    padding: 0px;  
+}
+
+.titulo1{
+    display: inline;
+    font-size: 300%;
+    margin: -36px 59px 71px 139px;
+    padding: 88px 0px 0px 0px;
+    border: 10px 0px 0px 0px;
+    position: absolute;
+}
+
+header{
+    padding: 15px;
+    padding-bottom: 75px;
+    border: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+.parrafoIndex{
+    margin: 10px;
+    border: 20px;
+}
+
+.mapa{  
+    position: relative;
+    left: 150px;
+}
+
+.tituloRiders{
+    position: relative;
+    left: 500px;
+}
+
+.fondoHeader{
+    background-color: rgba(65, 60, 60, 0.527);
+}
+
+.formulario{
+    color: goldenrod;
+    font-size: 25px;
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+    padding: 5px;
+    border: 10px;
+}
+
+.foto{
+    height: 50%;
+    width: 50%;
+    border: 2px;
+    padding: 0px;
+    margin: 32px;
+}
+
+.iconos{
+    color: whitesmoke;
+    display: inline-block;
+    border: 1px;
+    padding: 5px;
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.mapas{
+    position: relative;
+    left: 15px;
+    border: 1px;
+}
+
+.imagenProductos{
+    display: inline;
+    border: 1px;
+    padding: 1px;
+    margin: 15px;
+    margin-left: 150px;
+}
+
+.precios{
+    display: inline-block;
+    border: 1px;
+    padding: 22px;
+    margin: -5px;
+
+}
+
+.precios:hover{
+    background-color: rgba(128, 128, 128, 0.397);
+}
