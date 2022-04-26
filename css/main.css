@@ -28,7 +28,6 @@
 
 .menu li:hover{
     background-color: rgba(153, 109, 42, 0.315);
- 
 }
 
 h1{
@@ -109,6 +108,7 @@ header{
 
 .fondoHeader{
     background-color: rgba(65, 60, 60, 0.527);
+    background-image: linear-gradient(rgb(43, 40, 40), rgba(65, 60, 60, 0.527));
 }
 
 .formulario{
@@ -163,3 +163,8 @@ header{
 .precios:hover{
     background-color: rgba(128, 128, 128, 0.397);
 }
+
+.logo-1:hover{
+    transform: scale(1.2);
+}
+
